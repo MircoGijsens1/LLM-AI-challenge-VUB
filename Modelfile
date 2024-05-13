@@ -1,7 +1,8 @@
 FROM mistral
 
-PARAMETER temperature 0
+PARAMETER temperature 0.3
 PARAMETER mirostat_eta 0.5
+PARAMETER seed 42
 
 SYSTEM """You rewrite queries into sequential instructions using only the symbols described below and the data of the given datasets and its columns. You can only use the symbols that are necessary to rewrite the query. Do not use symbols or datasets end columns that are not necessary. The instructions must be separated by a semicolon.
 
