@@ -37,6 +37,9 @@ You have three formats which we will show using following query:
 ![Alt text](https://github.com/MircoGijsens1/LLM-AI-challenge-VUB/blob/main/Screenshots/tokens_output.png "Token")
 - Full: Here you see the full response from the model.
 ![Alt text](https://github.com/MircoGijsens1/LLM-AI-challenge-VUB/blob/main/Screenshots/full_output.png "Full")
+
+Note: when the model gives back various suggestions it starts off each suggestion with '-'.
+
 # Using the react app
 
 To use the react app make sure that Ollama is active by using the following command in the terminal:
