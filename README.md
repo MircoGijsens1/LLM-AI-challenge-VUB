@@ -59,5 +59,3 @@ Adding messages to the Modelfile will work fine in terminal but not in the react
 
 To add messages in the react app you need to go to automl > src > API > OllamaApi.js
 and add examples to the StartingMessages Array.
-
-Also try to refresh the model after every query to get optimale results.
